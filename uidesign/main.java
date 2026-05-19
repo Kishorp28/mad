@@ -1,9 +1,4 @@
-package com.example.sigup;
-import android.app.DatePickerDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.widget.*;
-import java.util.Calendar;
+
 
 public class MainActivity extends AppCompatActivity {
 
