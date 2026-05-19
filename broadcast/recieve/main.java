@@ -1,9 +1,4 @@
-package com.example.broadcastreceive;
 
-import android.content.Intent;
-import android.content.IntentFilter;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
