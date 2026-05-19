@@ -1,29 +1,4 @@
 
-import android.Manifest;
-import android.content.pm.PackageManager;
-import android.location.Address;
-import android.location.Geocoder;
-import android.location.Location;
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
-
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import java.util.List;
-import java.util.Locale;
-
-import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.location.FusedLocationProviderClient;
-import com.google.android.gms.tasks.OnSuccessListener;
-
-
 public class MainActivity extends AppCompatActivity {
     FusedLocationProviderClient fusedLocationProviderClient;
     TextView lattitude, longitude, address, city, country;
